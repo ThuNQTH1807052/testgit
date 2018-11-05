@@ -2,14 +2,13 @@
 #include <stdlib.h>
 
 int main() {
-//    int *contro;
-//    int a = 10;
-//    contro = &a;
-//    printf("%d\n", a);
-//    printf("%d\n", *contro);
-//    printf("%d\n", &a);
-//    printf("%d\n", &contro);
-
+    int *contro;
+    int a = 10;
+    contro = &a;
+    printf("%d\n", a);
+    printf("%d\n", *contro);
+    printf("%d\n", &a);
+    printf("%d\n", &contro);
 int mang[4];
 int *contro;
 contro = mang;
